@@ -1,4 +1,4 @@
-(defproject ring-force-https "0.1.0-SNAPSHOT"
+(defproject ring-force-https "1.0.0"
   :description "Ring middleware to force HTTPS on web app."
   :signing {:gpg-key "Hashobject Ltd <team@hashobject.com>"}
   :url "https://github.com/hashobject/ring-force-https"

@@ -10,6 +10,27 @@ Ring middleware to force HTTPS on web app.
 
 ## Usage
 
+Import middleware inside your main Ring handler file:
+
+```
+(:require
+  ;some other imports
+  [ring-force-https.core :refer [force-https]]
+  ;some other imports
+  )
+```
+
+Attach `force-https` middleware in the following way
+
+```
+(def war-handler
+  (-> app
+    (force-https)
+    ;some other middlewares can go here. Next 3 lines are just example.
+    (wrap-resource "public")
+    (wrap-base-url)
+    (wrap-file-info)))
+```
 
 ## Contributions
 

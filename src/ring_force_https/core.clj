@@ -1,5 +1,5 @@
 (ns ring-force-https.core
-    (:require [ring.util.response :as resp])
+    (:require [ring.util.response :as resp]))
 
 
 (defn- https-url [request-url]

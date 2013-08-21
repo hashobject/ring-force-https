@@ -2,6 +2,9 @@
 
 Ring middleware to force HTTPS on web app.
 
+This middleware redirects all users from HTTP to HTTPS version of your site:
+e.x. if someones visits http://example.com he will be automatically redirected to https://example.com.
+
 ## Install
 
 ```

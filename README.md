@@ -3,7 +3,9 @@
 Ring middleware to force HTTPS on web app.
 
 This middleware redirects all users from HTTP to HTTPS version of your site:
-e.x. if someones visits http://example.com he will be automatically redirected to https://example.com.
+e.x. if someone visits http://example.com he will be automatically redirected to https://example.com.
+
+[![Dependencies Status](http://jarkeeper.com/hashobject/ring-force-https/status.png)](http://jarkeeper.com/hashobject/ring-force-https)
 
 ## Install
 

@@ -3,7 +3,7 @@
 
 
 (defn- https-url [request-url]
-  (str (str (str (str "https://" (:server-name request-url) ":") "443")) (:uri request-url)))
+  (str "https://" (:server-name request-url) ":443" (:uri request-url)))
 
 
 (defn force-https
